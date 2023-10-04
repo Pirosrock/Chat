@@ -1,0 +1,13 @@
+@host = http://localhost:3000
+
+
+GET {{host}}/login
+###
+GET {{host}}/register
+###
+GET {{host}}/Chat
+###
+
+POST {{host}}/users/create
+###
+POST {{host}}/users/login

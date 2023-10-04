@@ -1,0 +1,53 @@
+.chat {
+  background-color: rgba(7, 65, 241, 0.619);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.header {
+  background-color: rgba(226, 246, 16, 0.879);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header h3 {
+  font-size: 12px;
+}
+
+.main {
+  padding: 30px;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.main ul {
+  list-style: none;
+}
+
+main ul li {
+  margin: 10 px 0;
+}
+
+.footer {
+  background-color:rgba(226, 246, 16, 0.879);
+  color: white;
+  padding: 20px;
+}
+
+.formulario {
+  display: flex;
+  gap: 20px;
+}
+
+.formulario button {
+  width: 200px;
+}
+
+.owner {
+  color: green;
+  font-weight: bold;
+}

@@ -1,0 +1,17 @@
+extends layout.pug 
+
+block content 
+  h2.text-center Registro de usuarios
+  hr
+  //- -username, email, password
+  form(action="/users/create", method="POST")
+    .mb-3
+      label.form-label Nombre usuario
+      input.form-control(type="text", name="username")
+    .mb-3
+      label.form-label Email
+      input.form-control(type="text", name="email")
+    .mb-3
+      label.form-label Password
+      input.form-control(type="password", name="password")
+    input.btn.btn-info(type="submit" value="Enviar") 
